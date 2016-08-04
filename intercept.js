@@ -30,10 +30,10 @@ module.exports = function(context, req, res) {
             console.log('constructing response...');
             res.writeHead(301,
                           {
-                              'Location': 'https://github.com/robbor78',
+                              'Location': 'https://github.com/robbor78/WebTask_Interceptor',
                               'Content-Type': 'text/html'
                           });
-            res.end('<html><head><title>Redirecting...</title></head><body><h1>Redirecting</h1><p>Redirecting to <a href="https://github.com/robbor78">https://github.com/robbor78</a>.</p></body></html>');
+            res.end('<html><head><title>Redirecting...</title></head><body><h1>Redirecting</h1><p>Redirecting to <a href="https://github.com/robbor78/WebTask_Interceptor">https://github.com/robbor78/WebTask_Interceptor</a>.</p></body></html>');
 
             console.log('redirecting...');
         });
